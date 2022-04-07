@@ -13,10 +13,10 @@
         <div class="title"><h1>Dante e la divina</h1></div>
     </header>
     <main>
-        <div class="text-search">
-            <form action="index.php" method="get">
-                <input type="text" name="parola">
-                <button actions="submit">Cerca</button>
+    <div class="text-search">
+            <form action="divina.php" method="get">
+                <input type="text" name="parola" placeholder="Parola da censurare">
+                <button actions="submit">Censura</button>
             </form>
         </div>
     </main>

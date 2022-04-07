@@ -50,8 +50,8 @@ $divina_replaced = str_replace($bad, $censura, $divina_commedia);
     <main>
         <div class="text-search">
             <form action="divina.php" method="get">
-                <input type="text" name="parola">
-                <button actions="submit">Cerca</button>
+                <input type="text" name="parola" placeholder="Parola da censurare">
+                <button actions="submit">Censura</button>
             </form>
         </div>
         <div class="divin">
