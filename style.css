@@ -11,4 +11,7 @@ header {
 .divin {
     width: 30rem;
     text-align: justify;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
